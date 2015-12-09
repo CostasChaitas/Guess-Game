@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta char="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body >
+	<div class="container" id="gameoptions">
+		<div class="row">
+			<div class="selection">
+				<div class="header-title">
+					<h2 >Choose The Game You Want to play</h2>
+				</div>
+				<div class="buttons">
+					<div class="col-md-offset-3 col-md-6">
+						<button type="button" class="btn btn-success" id="numbergame">Guess the number</button>
+					</div>
+					<div class="col-md-offset-3 col-md-6">
+						<button type="button" class="btn btn-warning" id="colorgame">Guess the colour</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container" id="coloroptions">
+		<div class="selection">
+			<div class="header-title">
+				<div class="row">
+					<div class="col-md-2">
+						<img class="back" src="http://findicons.com/files/icons/77/icandy_junior_toolbar/128/back_2.png">
+					</div>
+					<div class="col-md-10">
+						<h2 >Choose from the above colours in order to find the random colour</h2>
+					</div>	
+				</div>			
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-xs-6">
+					<div class="box" id="colourbox1">
+						<div class="boxname">aqua</div>
+					</div> 
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<div class="box" id="colourbox2">
+						<div class="boxname">black</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<div class="box" id="colourbox3">
+						<div class="boxname">blue</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<div class="box" id="colourbox4">
+						<div class="boxname">gold</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-xs-6">
+					<div class="box" id="colourbox5">
+						<div class="boxname">gray</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<div class="box" id="colourbox6">
+						<div class="boxname">green</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<div class="box" id="colourbox7">
+						<div class="boxname">magenta</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<div class="box" id="colourbox8">
+						<div class="boxname">navy</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-xs-6">
+					<div class="box" id="colourbox9">
+						<div class="boxname">orange</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<div class="box" id="colourbox10">
+						<div class="boxname">red</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<div class="box" id="colourbox11">
+						<div class="boxname" style="color:black!important">white</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<div class="box" id="colourbox12">
+						<div class="boxname" >yellow</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="message-box">
+					<div id="output">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container" id="numberoptions">
+		<div class="selection">
+			<div class="header-title">
+				<div class="row">
+					<div class="col-md-2">
+						<img class="back" src="http://findicons.com/files/icons/77/icandy_junior_toolbar/128/back_2.png">
+					</div>
+					<div class="col-md-10">
+						<h2 >Guess the random number between 1 and 100</h2>
+					</div>	
+				</div>			
+			</div>
+			<div class="row">
+				<p class="click-search">Click here to search</p>
+			</div>
+			<div class="row">
+				<p class="search-number"><input name="search" id="search" type="search"></p>
+			</div>
+				<button class="btn btn-success number-submit">Submit</button> 
+				<p class="number-results"></p>
+		</div>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
+	
